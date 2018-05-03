@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    /*background-color: #006699;*/
+    color: white;
+    width:100%;
+    background-image: url("black-background.jpg");
+}
+
+h1, h2{
+    text-align: center;
+}
+#playerBoxOne, #playerBoxTwo{
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+    border: 1px solid cornsilk;
+    padding: 2%;
+    /*background-color: darkcyan;*/
+}
+
+#playerBoxOne{
+    float: left;
+    margin-left: 15%;
+}
+#playerBoxTwo{
+
+    float: right;
+    margin-right: 15%;
+}
+
+.card{
+
+    width: 40%;
+    /*max-height: 100%;*/
+    border: 1px solid cornsilk;
+    margin: 5% auto;
+    border-radius: 5px;
+
+}
+
+p{
+    text-align: center;
+}
+.center{
+    margin: 0 auto;
+}
+input {
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #dd7600;
+}
+.win{
+    background-color: green;
+}
+
+.loose{
+    background-color: red;
+}
+
+/*#cardOne,#cardTwo{*/
+    /*font-size: 200%;*/
+    /*text-align: center;*/
+/*}*/
+
+input:disabled, input[disabled]{
+    background-color: gray;
+
+}
+img{
+    width:100%;
+    display: block;
+    margin: auto;
+}

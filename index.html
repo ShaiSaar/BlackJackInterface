@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body onload="init()">
+
+<h1>Black jack</h1>
+<div>
+    <input type="button" value="PLAY AGAIN" id="reset" onClick="window.location.reload()"/>
+    <br>
+</div>
+
+<div id="playerBoxOne" >
+    <h2>Player 1</h2>
+    <div class="innerBox">
+        <div class="card" ><img src="pics/purple_back.png" id="cardOne"/> </div>
+        <p id="sumPlayerOne">Player Two Score is: <span id="totalScore1"> 0 </span></p>
+        <input type="button" id="draw1" value="DRAW"  />
+        <input type="button" id="stay1" value="STAY" />
+    </div>
+</div>
+<div id="playerBoxTwo" >
+    <h2>Player 2</h2>
+    <div class="innerBox">
+        <div class="card" ><img src="pics/yellow_back.png" id="cardTwo"/></div>
+        <p id="sumPlayerTwo">Player One Score is: <span id="totalScore2"> 0 </span></p>
+        <input type="button" id="draw2" value="DRAW" />
+        <input type="button" id="stay2" value="STAY" />
+
+    </div>
+</div>
+
+</body>
+</html>
